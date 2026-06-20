@@ -1,4 +1,4 @@
-package com.example.uas_mobile_iot
+package com.miotmp.firedetection
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "548204797589",
+    "firebase_url": "https://miot-miniproject-firedetection-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "miot-miniproject-firedetection",
+    "storage_bucket": "miot-miniproject-firedetection.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548204797589:android:a4b0aac03943e1d14b859c",
+        "android_client_info": {
+          "package_name": "com.miotmp.firedetection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABY4emCf5xPZJFoNKF6-I9DQVoFEU-45U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

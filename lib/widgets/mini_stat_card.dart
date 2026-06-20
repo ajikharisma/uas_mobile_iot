@@ -19,8 +19,15 @@ class MiniStatCard extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(12),
       decoration: BoxDecoration(
-        color: const Color(0xFF1E1E38),
+        color: const Color(0xFFF9FAFB),
         borderRadius: BorderRadius.circular(12),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withAlpha((0.03 * 255).toInt()),
+            blurRadius: 6,
+            offset: const Offset(0, 1),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
@@ -29,7 +36,7 @@ class MiniStatCard extends StatelessWidget {
             label.toUpperCase(),
             style: const TextStyle(
               fontSize: 10,
-              color: Color(0xFF8888AA),
+              color: Color(0xFF6B7280),
               letterSpacing: 0.6,
             ),
           ),
@@ -39,7 +46,7 @@ class MiniStatCard extends StatelessWidget {
             style: const TextStyle(
               fontSize: 16,
               fontWeight: FontWeight.w500,
-              color: Colors.white,
+              color: Color(0xFF1F2937),
             ),
           ),
           const SizedBox(height: 2),
